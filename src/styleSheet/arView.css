@@ -1,0 +1,43 @@
+.ar-view-container {
+  width: 100%;
+  height: calc(100vh - 7vh);
+  background-color: rgb(205, 205, 205);
+}
+.ar-container {
+  /* background-color: black; */
+}
+.container-ar-viewer {
+  width: 100%;
+  height: 100%;
+}
+.ar-view-container {
+  width: 95%;
+  height: 95%;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+}
+#modelviewer {
+  width: 100%;
+  height: inherit;
+  /* background-color: aqua !important; */
+}
+.HotspotAnnotation {
+  color: black;
+}
+.Hotspot {
+  border: none;
+  padding: 5px 10px;
+  border-radius: 7px;
+}
+.ar-button {
+  background: linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+  border-radius: 7px;
+  padding: 10px 15px;
+  color: #ffffff;
+  display: inline-block;
+  font: normal bold 13px/1 "Open Sans", sans-serif;
+  text-align: center;
+  border: 0;
+  cursor: pointer;
+}
