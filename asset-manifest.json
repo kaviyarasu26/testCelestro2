@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/testCelestro2/static/css/main.12116067.css",
+    "main.js": "/testCelestro2/static/js/main.c4f3918e.js",
+    "static/media/Celestro Logo_final.png": "/testCelestro2/static/media/Celestro Logo_final.cdafaea65c3f1be97fb3.png",
+    "static/media/ARLogo.svg": "/testCelestro2/static/media/ARLogo.6afafad447e143b083da9c6fe1f44a89.svg",
+    "static/media/Share.svg": "/testCelestro2/static/media/Share.bec8a17ba4c032811583699f688fc32d.svg",
+    "static/media/About.svg": "/testCelestro2/static/media/About.1e3adb9236bc2d0f6be0649d6c892acd.svg",
+    "static/media/Home.svg": "/testCelestro2/static/media/Home.161bfae6e589b0440f97ba51e78f366a.svg",
+    "static/media/AR.svg": "/testCelestro2/static/media/AR.b8ac4cea518062ee6badd54ce8ca9efd.svg",
+    "index.html": "/testCelestro2/index.html",
+    "main.12116067.css.map": "/testCelestro2/static/css/main.12116067.css.map",
+    "main.c4f3918e.js.map": "/testCelestro2/static/js/main.c4f3918e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12116067.css",
+    "static/js/main.c4f3918e.js"
+  ]
+}
