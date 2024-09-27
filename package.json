@@ -1,18 +1,20 @@
-{
+{ 
+  "homepage": "http://kaviyarasu26.github.io/testCelestro2",
   "name": "react",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
   "main": "src/index.tsx",
   "dependencies": {
+    "@gsap/react": "2.1.1",
+    "@react-three/drei": "9.113.0",
+    "@react-three/fiber": "8.17.7",
+    "gh-pages": "^6.1.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-scripts": "^5.0.0",
-    "@react-three/fiber": "8.17.7",
     "react-router-dom": "6.26.2",
-    "@react-three/drei": "9.113.0",
-    "three": "0.168.0",
-    "@gsap/react": "2.1.1"
+    "react-scripts": "^5.0.0",
+    "three": "0.168.0"
   },
   "devDependencies": {
     "@types/react": "18.2.38",
@@ -22,6 +24,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
